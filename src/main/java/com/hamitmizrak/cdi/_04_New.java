@@ -18,8 +18,10 @@ public class _04_New {
     @Produces
     public String uretilenData( @New StudentDto studentDto){
         studentDto=StudentDto.builder()
-                .studentId(0L).studentName("student Adi")
-                .build();
+            .studentId(1)
+            .studentName("Ali")
+            .studentSurname("Kaya")
+            .build();
         return studentDto.getStudentName();
     }
 
