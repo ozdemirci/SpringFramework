@@ -10,8 +10,8 @@ import java.io.Serializable;
 @Named
 //@ApplicationScoped //bütün uygulama boyunca çalışıyor bütün kullanıcalar
 //@RequestScoped //1 istek boyunca
-//@SessionScoped //1 kullanıcı için yaşar ancak logout
-//@Dependent //bukelemon
+//@SessionScoped //1 kullanıcı için yaşar ancak logout olunca ölür.
+//@Dependent //bukelemun gibi hangi class çağırdıysa onun gibi davranır
 //@ConversationScoped //belli istek boyunca yaşar.
 //@SessionScoped // Bean 1 instanse olmasını sağlamak için
 public class _00_Scoped  {
