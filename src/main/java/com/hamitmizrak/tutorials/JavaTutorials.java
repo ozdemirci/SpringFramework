@@ -1,14 +1,15 @@
 package com.hamitmizrak.tutorials;
 
-import java.util.Arrays;
-
 public class JavaTutorials {
 
     public static void main(String[] args) {
+            
 //        Arrays.sort();
 //        this.
 //        super
-//        break continue return
+//        break 
+//        continue 
+//        return
 //        optional
         //cast
         //primitive type
@@ -33,8 +34,8 @@ public class JavaTutorials {
         //DRY
         //MONAD
         //List Set Map
-        //Liste:LinkedList ArrayList
-        //Generic <>
+        //Liste:LinkedList ArrayList HashList
+        //Generic <T>
         //Iterator
         //OOP
         //interface
@@ -52,7 +53,7 @@ public class JavaTutorials {
         //server
 
         //constructor
-        //excepiton
+        //exception
         //error
 
         //Java 8 : stream,map,filter,sort
