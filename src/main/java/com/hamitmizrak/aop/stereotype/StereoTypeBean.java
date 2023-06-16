@@ -6,7 +6,9 @@ import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Named;
 
 @BenimStereoType
-@Data @NoArgsConstructor @AllArgsConstructor
+@Data 
+@NoArgsConstructor
+@AllArgsConstructor
 public class StereoTypeBean {
     private Long id;
     private String name="Merhabalar";
