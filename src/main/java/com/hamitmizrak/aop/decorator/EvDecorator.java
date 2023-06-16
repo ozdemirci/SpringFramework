@@ -7,7 +7,8 @@ import javax.inject.Inject;
 @Decorator
 abstract public class EvDecorator implements IEv{
 
-    private @Inject @Delegate IEv iEv;
+    @Inject @Delegate
+    private  IEv iEv;
 
     @Override
     public String boyama(String data) {
